@@ -15,7 +15,7 @@ const Nav = ({ register, login, logout, user }) => {
             <button onClick={login}>Login</button>
           </>
         ) : (
-          <button onClick={logout}>Logout</button>
+          <button className="logout__btn" onClick={logout}>{user.email[0].toUpperCase()}</button>
         )}
       </div>
     </div>

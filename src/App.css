@@ -26,3 +26,16 @@
   flex-direction: column;
 }
 
+button {
+  cursor: pointer;
+}
+
+.logout__btn {
+  padding: 8px 16px;
+  font-size: 24px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: blueviolet;
+}
+
